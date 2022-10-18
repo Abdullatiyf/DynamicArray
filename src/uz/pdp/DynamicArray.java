@@ -43,7 +43,7 @@ public class DynamicArray {
      */
     public void add(Object newElement, int index) {
         if (size == object.length) {
-//            doublingArray();
+            doublingArray();
         }
         if (index >= size) {
             object[size] = newElement;
